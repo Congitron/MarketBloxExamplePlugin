@@ -4,8 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using MarketBlox.Attributes;
+using MarketBlox.SystemCore;
 
-namespace MarketBlox.SystemCore
+namespace MarketBlox.Examples
 {
     [Module("Example", true)]
     public class ExampleComponent : SystemComponent
