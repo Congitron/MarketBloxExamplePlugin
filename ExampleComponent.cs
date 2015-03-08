@@ -1,32 +1,14 @@
-<<<<<<< HEAD
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using MarketBlox.Attributes;
-using MarketBlox.SystemCore;
-
-namespace MarketBlox.Examples
-{
-    [Module("Example", true)]
-    public class ExampleComponent : SystemComponent
-    {
-        public ExampleComponent()
-        {
-            DisplayName = "Example";
-=======
-﻿//Deprecated approach
-
-//using System;
+//﻿using System;
 //using System.Collections.Generic;
 //using System.Linq;
 //using System.Text;
 //using System.Threading.Tasks;
 //using MarketBlox.Attributes;
->>>>>>> working
+//using MarketBlox.SystemCore;
 
-//namespace MarketBlox.SystemCore
+//Deprecated approach
+
+//namespace MarketBlox.Examples
 //{
 //    [Module("Example", true)]
 //    public class ExampleComponent : SystemComponent
