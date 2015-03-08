@@ -30,8 +30,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="MarketBlox 2.0">
-      <HintPath>..\MarketBlox\MarketBlox 2.0\bin\Debug\MarketBlox 2.0.exe</HintPath>
+    <Reference Include="MarketBloxAPI">
+      <HintPath>..\MarketBlox\MarketBloxAPI\bin\Debug\MarketBloxAPI.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ExampleApiComponent.cs" />
     <Compile Include="ExampleComponent.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
